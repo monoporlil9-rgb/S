@@ -1,0 +1,15 @@
+{
+  "name": "cache-proxy-server",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@supabase/Bolt Database-js": "^2.75.0",
+    "axios": "^1.12.2",
+    "compression": "^1.8.1",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  }
+}
