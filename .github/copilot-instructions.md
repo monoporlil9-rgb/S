@@ -128,6 +128,11 @@ async def on_echo(message: Message):
 
 ## Build & Run
 
+### Project Entry Points
+The project has two main entry points:
+- `run_bot.py`: Helper script that validates BOT_TOKEN is set before running the bot
+- `quickstart_bot.py`: Main bot application with all handlers and logic
+
 ### Development Setup
 ```bash
 # Install dependencies
@@ -137,7 +142,10 @@ pip install -r requirements.txt
 cp .env.example .env
 # Edit .env and add BOT_TOKEN
 
-# Run bot
+# Run bot (with environment check)
+python run_bot.py
+
+# Or run directly
 python quickstart_bot.py
 ```
 
