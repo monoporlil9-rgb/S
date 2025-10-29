@@ -11,6 +11,7 @@ from aiogram.types import Message
 async def main():
     token = os.getenv("BOT_TOKEN", "").strip()
     if not token:
+    
         raise RuntimeError("Please set BOT_TOKEN environment variable")
 
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
