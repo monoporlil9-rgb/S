@@ -27,3 +27,13 @@ python quickstart_bot.py
 - `/start` - เริ่มต้นใช้งานบอท
 - `/echo <ข้อความ>` - ทวนข้อความที่ส่งมา
 - ส่งข้อความธรรมดา - บอทจะตอบกลับ "รับทราบ: <ข้อความ>"
+
+## Agent-o-rama
+
+โปรเจกต์นี้รวม Agent-o-rama library จาก Red Planet Labs ไว้ใน directory `agent-o-rama/`
+
+Agent-o-rama เป็น library สำหรับสร้าง scalable และ stateful LLM agents บน JVM รองรับทั้ง Java และ Clojure APIs
+
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ Agent-o-rama ดูได้ที่:
+- [Agent-o-rama README](agent-o-rama/README.md)
+- [Agent-o-rama GitHub Repository](https://github.com/redplanetlabs/agent-o-rama)

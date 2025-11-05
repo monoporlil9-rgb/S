@@ -1,0 +1,47 @@
+/pom.xml
+pom.xml.asc
+*.jar
+*.class
+/*zip
+/lib/
+/classes/
+target/
+/checkouts/
+.lein-deps-sum
+.lein-repl-history
+.lein-plugins/
+.lein-failures
+.nrepl-port
+.cpcache/
+/.apt_generated_tests/
+/.apt_generated/
+.classpath
+.factorypath
+.settings/
+.project
+scripts/code-format
+.on-save.json
+.vscode
+
+# frontend
+.shadow-cljs/
+node_modules/
+public/
+
+# compiled frontend output
+resource/main.js
+resource/manifest.edn
+
+# claude files
+CLAUDE.md
+.claude/settings.local.json
+
+# clojure-mcp
+.clojure-mcp/code_index.txt
+
+# clj-kondo hooks (exception to global gitignore)
+!.clj-kondo/hooks/
+
+# playwright
+test-results/
+playwright-report/
